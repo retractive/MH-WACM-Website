@@ -5,13 +5,14 @@ html {
 
 body {
   margin: 0;
-  background-color: rgb(50,48,49);
+  background-color: white;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
+  color: #333;
 }
 
 .outside{
-  background-color:rgb(50,48,49);
+  background-color:white;
   height:1px;
   float:left;
   clear:left;
@@ -299,7 +300,7 @@ a.svg:after {
 }
 
 .contact-bkg{
-  background:rgb(193,51,46);
+  background:rgb(253,166,158);
 
 }
 
