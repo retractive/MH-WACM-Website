@@ -84,7 +84,6 @@ a.svg:after {
 #header-text{
   position:absolute;
   top:50%;
-  margin-top:-55px;
   height:100px;
 }
 
@@ -219,7 +218,7 @@ a.svg:after {
 
 
 #about-us-inner{
-  background:rgb(23,126,137);
+  background:rgb(252,104,107);
   height:100px;
   color:white;
   font-weight:300;
