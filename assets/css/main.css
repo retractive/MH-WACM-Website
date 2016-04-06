@@ -43,7 +43,7 @@ a.svg:after {
 #header{
   position:relative;
   width:100%;
-  height:250px;
+  height:200px;
   background-color: #cccccc;
   color:rgb(255,255,255);
   margin-top:0;
@@ -53,16 +53,12 @@ a.svg:after {
 }
 
 #header-container{
+  margin-top:40px;
   position:relative;
-  height:250px;
   width:100%;
-
+  line-height:1;
 }
 
-#header-left{
-  position:relative;
-  height:100%;
-}
 
 #header-logo{
   position:absolute;
@@ -75,24 +71,16 @@ a.svg:after {
 
 }
 
-#header-right{
-  position:relative;
-  height:100%;
-  line-height: 1.05;
-}
 
 #header-text{
   position:absolute;
-  top:50%;
-  height:100px;
 }
 
 #page-title{
   font-weight: 400;
-  font-style: italic;
   letter-spacing:4px;
   font-size: 18pt;
-  text-shadow: 0px 1px rgba(0,0,0,.5);
+  color:#333;
 }
 
 #logo-large{
@@ -101,7 +89,7 @@ a.svg:after {
   font-weight: 700;
   letter-spacing:11px;
   float:right;
-  text-shadow: 0px 1px rgba(0,0,0,.5);
+  color:#333;
 }
 
 #term{
@@ -145,7 +133,7 @@ a.svg:after {
 
 #social{
   float:right;
-  margin-top:-35px;
+  margin-top:0px;
 }
 
 #follow{
