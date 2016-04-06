@@ -246,7 +246,6 @@ a.svg:after {
   font-size:50pt;
   color:rgb(255,200,87);
   clear:both;
-
 }
 
 #about-us-what-text-text{
@@ -306,4 +305,14 @@ a.svg:after {
 
 #contact{
   margin-top:20px;
+}
+
+.form {
+
+}
+
+#registration-form {
+  position:relative;
+  float:left;
+  clear:both;
 }
