@@ -6,7 +6,7 @@ html {
 
 body {
     margin: 0;
-    background-color: rgb(254, 254, 252);
+    background-color: rgb(253, 166, 158);
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color: #333;
@@ -17,11 +17,14 @@ section {
     min-height: 1px;
 }
 
-.outside {
-    background-color: white;
-    height: 1px;
-    float: left;
-    clear: left;
+
+#content{
+    background: rgb(254, 254, 252);
+    width:100%;
+    height:auto;
+    float:left;
+    position:relative;
+
 }
 
 * {
@@ -109,36 +112,6 @@ a.svg:after {
     margin-right: 10px;
 }
 
-#sponsorship {
-    position: relative;
-    height: 250px;
-    min-height: 250px;
-}
-
-#sponsor-img {
-    position: relative;
-    height: 250px;
-    float: left;
-    background: url('../img/sponsor.jpg');
-    background-size: auto 200%;
-    background-repeat: no-repeat;
-    background-position: 50% 20%;
-
-}
-
-#sponsors-text {
-    position: relative;
-    height: 100%;
-    float: left;
-    color: rgb(255, 200, 87);
-    text-align: left;
-    font-weight: 100;
-    font-size: 22pt;
-    line-height: 1;
-    letter-spacing: 4px;
-    padding-top: 10px;
-}
-
 #follow {
     position: relative;
     font-size: 15pt;
@@ -154,23 +127,6 @@ a.svg:after {
 
 }
 
-#sponsorhsip-button {
-    position: relative;
-    background: rgb(255, 200, 87);
-    color: rgb(50, 48, 49);
-    font-weight: 300;
-    font-size: 23pt;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
-    margin-bottom: 20px;
-    min-height: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-width: 281px;
-
-}
 
 #in-the-news {
     position: relative;
@@ -186,7 +142,6 @@ a.svg:after {
     letter-spacing: 4px;
     font-size: 23pt;
     font-weight: 300;
-    padding-top: 10px;
     background: rgb(165, 254, 214);
     padding: 20px;
 
@@ -278,7 +233,7 @@ a.svg:after {
 
 #contact-header {
     color: white;
-    font-size: 40pt;
+    font-size: 30pt;
     font-weight: 700;
     letter-spacing: 4px;
 }
@@ -309,9 +264,7 @@ a.svg:after {
     margin-top: 20px;
 }
 
-.form {
 
-}
 
 #registration-form {
     position: relative;
@@ -345,4 +298,33 @@ section.col-xs-12 {
 
 #column-container {
     padding: 0px;
+}
+
+#where{
+    background:rgb(132, 220, 198);
+    min-height:190px;
+    color: rgb(59, 100, 90);
+    padding:20px
+}
+
+
+#map{
+    padding:0px;
+    min-height:190px;
+}
+
+#map>iframe{
+    min-height:190px;
+    height:auto;
+}
+
+#sponsorship {
+    text-align:center;
+    position: relative;
+    padding-top:20px;
+    font-weight: 100;
+    font-size: 22pt;
+    line-height: 1;
+    letter-spacing: 4px;
+
 }
