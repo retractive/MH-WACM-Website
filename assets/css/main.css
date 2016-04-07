@@ -138,12 +138,11 @@ a.svg:after {
 
 #follow{
   position:relative;
-  font-size:10pt;
-  font-weight:300;
+  font-size:15pt;
+  font-weight:500;
   letter-spacing: 1px;
   padding-left:10px;
   color:black;
-  font-weight:700;
 }
 
 #follow-img{
@@ -175,11 +174,13 @@ a.svg:after {
 }
 
 #in-the-news-text{
+  display: flex;
+
   position: relative;
-  height:125px;
+  height:150px;
   float:left;
   color:rgb(77,120,102);
-  text-align: right;
+  line-height:1;
   letter-spacing: 4px;
   font-size: 23pt;
   font-weight:300;
@@ -188,15 +189,10 @@ a.svg:after {
   padding-right:20px;
 
 }
-#isthmus{
-  margin-right:-5px;
-  width:260px;
-  margin-top:-5px;
-}
 
 #in-the-news-picture{
   position:relative;
-  height:125px;
+  height:150px;
   float:left;
   background: url('../img/article.jpg');
   background-size: 100% auto;
