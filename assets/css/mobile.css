@@ -84,23 +84,29 @@
 
     #sponsorship-logos{
         position: relative;
-        height: auto;
-        width: 100%;
-        left: 50%;
-        margin-left: -25%;
+        width: 50%;
+        margin: 0 auto;
     }
 
 
     #cloud-google{
-        margin-left:-40px;
+        margin-left:-130px;
     }
 
     #cloud-singlewire{
-        margin-left:30px;
+        margin-left:-60px;
     }
 
     #cloud-epic{
-        margin-left: -20px;
+        margin-left: -120px;
+    }
+
+    #cloud-exis{
+        margin-left:-50px;
+    }
+
+    #cloud-microsoft{
+        margin-left: -120px;
     }
 
 }
