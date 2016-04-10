@@ -66,7 +66,7 @@ a.svg:after {
     width: 100%;
     height: 200px;
     background-color: rgb(173,217,202);
-    text-shadow: 0px 1px #2F6155;
+    text-shadow: 0px 1px #8DAFA3;
     color: rgb(252,250,229);
     margin-top: 0;
     padding-top: 0;
@@ -123,7 +123,7 @@ a.svg:after {
     bottom: 0px;
     top: 140px;
     margin-right: 10px;
-    text-shadow: 0px 1px #2F6155;
+    text-shadow: 0px 1px #8DAFA3;
 }
 
 #follow {
@@ -167,7 +167,7 @@ a.svg:after {
     background: url('../img/laptop.jpg');
     background-size: 100% auto;
     background-repeat: no-repeat;
-    background-position: 50% 30%;
+    background-position: 50% 70%;
 }
 
 #about-us-inner {
@@ -246,10 +246,11 @@ a.svg:after {
 
 #contact-header {
     color: #FCFAE5;
-    font-size: 25pt;
+    font-size: 18pt;
     font-weight: 900;
     letter-spacing: 3px;
-    text-shadow: 0px 1px #2F6155;
+    text-shadow: 0px 1px #8DAFA3;
+    text-align: center;
 }
 
 #contact-email {
@@ -257,22 +258,21 @@ a.svg:after {
     font-size: 40px;
     font-weight: 500;
     text-align: center;
-    margin-top: -10px;
-    text-shadow: 0px 1px #2F6155;
+    margin-top: 0px;
+    text-shadow: 0px 1px #8DAFA3;
 }
 
-#contact-credit {
+.contact-credit {
     font-size: 12pt;
     font-weight: 300;
     text-align: right;
     color: #265A4B;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     margin-top: 15px;
-    padding-left: 0px;
-    padding-right: 0px;
+
 }
 
-#contact-credit a{
+.contact-credit a{
     color: #265A4B;
 }
 
@@ -359,7 +359,7 @@ section.col-xs-12 {
 #sponsorship-text{
     letter-spacing: 6px;
     font-weight: 100;
-    font-size: 22pt;
+    font-size: 19pt;
     color: rgb(99, 99, 99);
 }
 
@@ -386,18 +386,22 @@ section.col-xs-12 {
 }
 
 #cloud-google{
+    margin-left: 40px;
     background: url('../img/sponsor/Google-cloud.svg');
     background-size: 100%;
     background-repeat: no-repeat;
+    padding-top: 14px;
 }
 
 #cloud-singlewire{
     background: url('../img/sponsor/singlewire-cloud.svg');
     background-size: 100%;
     background-repeat: no-repeat;
-    padding-top: 45px;
+    padding-top: 37px;
     padding-bottom: 10px;
     background-position-y: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 #cloud-epic{
@@ -422,5 +426,9 @@ section.col-xs-12 {
     background: url('../img/sponsor/microsoft-cloud.svg');
     background-size: 100%;
     background-repeat: no-repeat;
-    padding-top: 20px;
+    padding-top: 23px;
+}
+
+#contact-credit-right{
+    text-align: left;
 }
