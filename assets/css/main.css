@@ -150,12 +150,12 @@ a.svg:after {
     position: relative;
     height: 150px;
     float: left;
-    color: rgb(47, 97, 85);
+    color: #0A6360;
     line-height: 1;
     letter-spacing: 4px;
     font-size: 23pt;
     font-weight: 300;
-    background: rgb(252, 250, 229);
+    background: #10AAA5;
     padding: 25px;
 
 }
@@ -184,7 +184,7 @@ a.svg:after {
 }
 
 #volunteer {
-    background: rgb(253, 166, 158);
+    background: rgb(241,153, 146);
     height: 100px;
     color: white;
     font-weight: 300;
