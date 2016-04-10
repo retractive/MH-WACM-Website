@@ -33,7 +33,6 @@ a:hover, a:focus{
 }
 
 #content-container{
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
     padding:0px;
     border-radius: 2px;
     margin-top:-20px;
@@ -157,7 +156,14 @@ a.svg:after {
     font-weight: 300;
     background: #10AAA5;
     padding: 25px;
+    text-align: right;
 
+}
+
+#calendar-subtext{
+    color: #0A6360;
+    font-size: 25px;
+    letter-spacing: 3px;
 }
 
 #in-the-news-picture {
@@ -432,3 +438,4 @@ section.col-xs-12 {
 #contact-credit-right{
     text-align: left;
 }
+
