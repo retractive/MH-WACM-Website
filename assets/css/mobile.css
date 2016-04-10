@@ -7,7 +7,6 @@
     #header-text {
         margin-top: 50px;
         width: 266px;
-        left: 50%;
         margin-left: -133px;
         line-height: 1.05;
     }
@@ -19,11 +18,8 @@
     }
 
     #logo-large {
-        font-size: 20pt;
-        font-style: normal;
-        font-weight: 700;
-        letter-spacing: 7px;
-        float: right;
+        font-size: 21.26pt;
+        letter-spacing: 6px;
     }
 
     #social {
@@ -31,21 +27,10 @@
     }
 
     #sponsor-img {
-        position: relative;
         height: 250px;
-        float: left;
-        background: url('../img/sponsor.jpg');
         background-size: 100% auto;
-        background-repeat: no-repeat;
         background-position: 50% 20%;
 
-    }
-
-    #in-the-news-picture {
-        position: relative;
-        margin-left: 0px;
-        margin-right: 0px;
-        width: 100%;
     }
 
     #about-us-what-img {
@@ -76,7 +61,8 @@
     #contact-header {
         font-size: 20pt;
         font-weight: 700;
-        letter-spacing: 4px;
+        letter-spacing: 3px;
+        padding-left:10px;
     }
 
     #contact-email {
@@ -86,6 +72,10 @@
         text-align: center;
         padding-left:0px;
         padding-right:0px;
+    }
+
+    #content-container{
+        margin-top:0px;
     }
 
 }
@@ -99,3 +89,17 @@ section#in-the-news.col-xs-12 {
     padding-left: 0px;
     padding-right: 0px;
 }
+
+
+@media (max-width: 991px){
+    #content-container {
+        box-shadow: none;
+        margin-bottom: 0px;
+    }
+
+    #sponsorship{
+        background: white;
+    }
+
+}
+

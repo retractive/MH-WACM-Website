@@ -10,7 +10,15 @@
     <link rel="stylesheet" href="assets/css/mobile.css"/>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,900italic,900,700italic,700'
           rel='stylesheet' type='text/css'>
-    <!-- Google Analytics TODO: ASK ANDREW FOR CODE-->
+    <!-- Google Analytics -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-59745668-1', 'auto');
+        ga('send', 'pageview');
+    </script>
 </head>
 <body>
 
@@ -40,114 +48,98 @@
 </section>
 
 <div id="content">
-    <!-- NOTE -->
-    <section class="col-xs-12 container-fluid">
-        <div class="hidden-xs hidden-sm col-md-2 col-lg-3 clearfix"></div>
-        <div id="note" class="col-xs-12 col-sm-12 col-md-8 col-lg-6">
-            <span id="note-large">MADISON STUDENTS</span>
-            <br>
-            <br>
-            We’ve created a hackathon for you! WACM and Madhacks are combining forces to host a spring hackathon just
-            for the students of Madison.
-        </div>
-    </section>
+    <div class="hidden-xs hidden-sm col-md-2 col-lg-3 clearfix"></div>
 
-    <!-- CALENDAR -->
-    <section id="in-the-news" class="col-xs-12 container-fluid">
-        <div class="hidden-xs hidden-sm col-md-2 col-lg-3 clearfix"></div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 clearfix" id="in-the-news-text">
-            <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
-            <b>12 HOURS</b><br>APRIL 16<br>9am-9pm
-            <div title="Add to Calendar" class="addeventatc hidden">
-                Add to Calendar
-                <span class="start">04/16/2016 09:00 AM</span>
-                <span class="end">04/16/2016 9:00 PM</span>
-                <span class="timezone">America/Chicago</span>
-                <span class="title">MadHacks + WACM: Spring Fever Hackathon</span>
-                <span class="description">WACM and Madhacks are combining forces to host a spring hackathon just for the students of Madison.</span>
-                <span class="location">1210 W Dayton St, Madison, WI 53706 Room 1240</span>
-                <span class="organizer">MADHACKS + WACM</span>
-                <span class="organizer_email">team@madhacks.org</span>
-                <span class="facebook_event">https://www.facebook.com/events/703782616363133</span>
-                <span class="all_day_event">false</span>
-                <span class="date_format">MM/DD/YYYY</span>
+    <div id="content-container" class="container col-xs-12 col-sm-12 col-md-8 col-lg-6">
+        <!-- NOTE -->
+        <section>
+            <div id="note" class="col-xs-12">
+                <span id="note-large">MADISON STUDENTS</span>
+                <br>
+                <br>
+                We’ve created a hackathon for you! WACM and Madhacks are combining forces to host a spring hackathon just
+                for the students of Madison.
             </div>
-        </div>
-        <div id="in-the-news-picture" class="hidden-xs col-sm-12 col-sm-6 col-md-4 col-lg-3 clearfix">
+        </section>
 
-        </div>
-    </section>
-
-    <!-- REGISTRATION LINKS -->
-    <section id="about-us-content" class="col-xs-12">
-        <div class="hidden-xs hidden-sm col-md-2 col-lg-3 clearfix"></div>
-        <div id="about-us-what-img" class="col-xs-12 col-sm-6 col-md-4 col-lg-3 clearfix"></div>
-        <div id="column-container" class="col-xs-12 col-sm-6 col-md-4 col-lg-3 clearfix container">
-            <div id="about-us-inner" class="col-xs-12">
-                <a href="https://goo.gl/forms/95hRLuacGz">REGISTER</a>
+        <!-- CALENDAR -->
+        <section id="in-the-news" class="col-xs-12 container">
+            <div class="col-xs-12 col-sm-6" id="in-the-news-text">
+                <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+                <b>12 HOURS</b><br>APRIL 16<br>9am-9pm
             </div>
-            <div id="volunteer" class="col-xs-12">
-                <a href="https://docs.google.com/forms/d/16eXNAYvCPPGk3OwgTVdKQ0Ol9sznEyY-xDlKqNEQ2HQ/viewform">
-                    VOLUNTEER
-                </a>
+            <div id="in-the-news-picture" class="hidden-xs col-sm-12 col-sm-6">
+
             </div>
-        </div>
-        <div class="hidden-xs hidden-sm col-md-2 col-lg-3 clearfix"></div>
-    </section>
+        </section>
 
-
-    <!-- Map -->
-    <section class="map col-xs-12">
-        <div class="hidden-xs hidden-sm col-md-2 col-lg-3 clearfix"></div>
-        <div id="where" class="col-xs-12 col-sm-6 col-md-3 col-lg-2 clearfix">
-            <span id="note-large">WHERE</span><br><br>
-            <b>CS 1240</b><br>
-            Computer Sciences <br>
-            1210 W Dayton St,<br>
-            Madison, WI 53706
-
-        </div>
-        <div id="map-container" class="col-xs-12 col-sm-6 col-md-5 col-lg-4 clearfix">
-            <div id="overlay" onClick="style.pointerEvents='none'"></div>
-            <div id="map">
-                <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d728.6426859219129!2d-89.40725991189807!3d43.071494878370196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8807accf4987c883%3A0x5c8312db7bc7df9!2sUniversity+of+Wisconsin%3A+Department+of+Computer+Sciences!5e0!3m2!1sen!2sus!4v1459644227465"
-                        frameborder="0" style="border:0" allowfullscreen></iframe>
-                </iframe>
+        <!-- REGISTRATION LINKS -->
+        <section id="about-us-content" class="col-xs-12">
+            <div id="about-us-what-img" class="col-xs-12 col-sm-6"></div>
+            <div id="column-container" class="col-xs-12 col-sm-6 container">
+                <div id="about-us-inner" class="col-xs-12">
+                    <a href="https://goo.gl/forms/95hRLuacGz">REGISTER</a>
+                </div>
+                <div id="volunteer" class="col-xs-12">
+                    <a href="https://docs.google.com/forms/d/16eXNAYvCPPGk3OwgTVdKQ0Ol9sznEyY-xDlKqNEQ2HQ/viewform">
+                        VOLUNTEER
+                    </a>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!--Sponsors-->
-    <section class="col-xs-12">
-        <div class="hidden-xs hidden-sm col-md-2 col-lg-3 clearfix"></div>
-        <div id="sponsorship" class="col-xs-12 col-sm-12 col-md-8 col-lg-6">
-            <div id="sponsorship-text">SPONSORS</div>
-            <br>
-            <div id="sponsorship-logos">
-                <a href="http://www.google.com/about/"><img src="assets/img/sponsor/Google-gray.png"
-                                                            onmouseover="this.src='assets/img/sponsor/Google-color.png'"
-                                                            onmouseout="this.src='assets/img/sponsor/Google-gray.png'"
-                                                            width="200px"></a>
-                <a href="https://www.singlewire.com/"><img src="assets/img/sponsor/singlewire-gray.png"
-                                                           onmouseover="this.src='assets/img/sponsor/singlewire-color.png'"
-                                                           onmouseout="this.src='assets/img/sponsor/singlewire-gray.png'"
-                                                           width="200px"></a><br>
-                <a href="https://careers.epic.com/"><img src="assets/img/sponsor/Epic-gray.png"
-                                                         onmouseover="this.src='assets/img/sponsor/Epic-color.png'"
-                                                         onmouseout="this.src='assets/img/sponsor/Epic-gray.png'"
-                                                         width="140px"></a>
-                <a href="https://www.exis.io/"><img src="assets/img/sponsor/Exis-gray.png"
-                                                    onmouseover="this.src='assets/img/sponsor/Exis-color.png'"
-                                                    onmouseout="this.src='assets/img/sponsor/Exis-gray.png'"
-                                                    width="80px"></a>
-                <a href="https://careers.microsoft.com/"><img src="assets/img/sponsor/Microsoft-gray.png"
+        <!-- Map -->
+        <section class="col-xs-12">
+            <div id="where" class="col-xs-12 col-sm-6 col-md-4">
+                <span id="note-large">WHERE</span><br><br>
+                <b>CS 1240</b><br>
+                Computer Sciences <br>
+                1210 W Dayton St,<br>
+                Madison, WI 53706
+
+            </div>
+            <div id="map-container" class="col-xs-12 col-sm-6 col-md-8">
+                <div id="overlay" onClick="style.pointerEvents='none'"></div>
+                <div id="map">
+                    <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d728.6426859219129!2d-89.40725991189807!3d43.071494878370196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8807accf4987c883%3A0x5c8312db7bc7df9!2sUniversity+of+Wisconsin%3A+Department+of+Computer+Sciences!5e0!3m2!1sen!2sus!4v1459644227465"
+                            frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+        <!--Sponsors-->
+        <section class="col-xs-12">
+            <div id="sponsorship" class="col-xs-12">
+                <div id="sponsorship-text">SPONSORS</div>
+                <br>
+                <div id="sponsorship-logos">
+                    <a href="http://www.google.com/about/"><img src="assets/img/sponsor/Google-gray.png"
+                                                                onmouseover="this.src='assets/img/sponsor/Google-color.png'"
+                                                                onmouseout="this.src='assets/img/sponsor/Google-gray.png'"
+                                                                width="200px"></a>
+                    <a href="https://www.singlewire.com/"><img src="assets/img/sponsor/singlewire-gray.png"
+                                                               onmouseover="this.src='assets/img/sponsor/singlewire-color.png'"
+                                                               onmouseout="this.src='assets/img/sponsor/singlewire-gray.png'"
+                                                               width="200px"></a><br>
+                    <a href="https://careers.epic.com/"><img src="assets/img/sponsor/Epic-gray.png"
+                                                             onmouseover="this.src='assets/img/sponsor/Epic-color.png'"
+                                                             onmouseout="this.src='assets/img/sponsor/Epic-gray.png'"
+                                                             width="140px"></a>
+                    <a href="https://www.exis.io/"><img src="assets/img/sponsor/Exis-gray.png"
+                                                        onmouseover="this.src='assets/img/sponsor/Exis-color.png'"
+                                                        onmouseout="this.src='assets/img/sponsor/Exis-gray.png'"
+                                                        width="80px"></a>
+                    <a href="https://careers.microsoft.com/"><img src="assets/img/sponsor/Microsoft-gray.png"
                                                                   onmouseover="this.src='assets/img/sponsor/Microsoft-color.png'"
                                                                   onmouseout="this.src='assets/img/sponsor/Microsoft-gray.png'"
                                                                   width="140px"></a>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+
+    </div>
 </div>
 
 
@@ -172,6 +164,5 @@
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/jquery-2.1.4.min.js"></script>
 <script src="assets/js/functions.js" type="text/javascript"></script>
-<script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
 </body>
 </html>
