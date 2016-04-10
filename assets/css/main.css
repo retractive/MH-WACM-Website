@@ -6,10 +6,10 @@ html {
 
 body {
     margin: 0;
-    background-color: rgb(253, 166, 158);
+    background-color: #ADD9CA;
     font-family: "Roboto","Helvetica","Arial",sans-serif;
     font-size: 18px;
-    color: #333;
+    color: #4D615A;
 }
 
 section {
@@ -23,11 +23,11 @@ a:hover, a:focus{
 }
 
 #content{
-    background: rgb(254, 254, 252);
-    width:100%;
-    height:auto;
-    float:left;
-    position:relative;
+    background: rgb(173,217,202);
+    width: 100%;
+    height: auto;
+    float: left;
+    position: relative;
 
 
 }
@@ -65,13 +65,12 @@ a.svg:after {
     position: relative;
     width: 100%;
     height: 200px;
-    background-color: rgb(253, 166, 158);
-    text-shadow: 0px 1px rgb(252, 104, 107);
-    color: #FFF;
+    background-color: rgb(173,217,202);
+    text-shadow: 0px 1px #2F6155;
+    color: rgb(252,250,229);
     margin-top: 0;
     padding-top: 0;
     align-content: center;
-
 }
 
 #header-container {
@@ -124,6 +123,7 @@ a.svg:after {
     bottom: 0px;
     top: 140px;
     margin-right: 10px;
+    text-shadow: 0px 1px #2F6155;
 }
 
 #follow {
@@ -147,16 +147,15 @@ a.svg:after {
 }
 
 #in-the-news-text {
-
     position: relative;
     height: 150px;
     float: left;
-    color: rgb(77, 120, 102);
+    color: rgb(47, 97, 85);
     line-height: 1;
     letter-spacing: 4px;
     font-size: 23pt;
     font-weight: 300;
-    background: rgb(165, 254, 214);
+    background: rgb(252, 250, 229);
     padding: 25px;
 
 }
@@ -172,7 +171,7 @@ a.svg:after {
 }
 
 #about-us-inner {
-    background: rgb(252, 104, 107);
+    background: rgb(230, 29, 96);
     height: 100px;
     color: white;
     font-weight: 300;
@@ -246,33 +245,38 @@ a.svg:after {
 }
 
 #contact-header {
-    color: white;
+    color: #FCFAE5;
     font-size: 25pt;
     font-weight: 900;
     letter-spacing: 3px;
+    text-shadow: 0px 1px #2F6155;
 }
 
 #contact-email {
-    color: white;
+    color: #FCFAE5;
     font-size: 40px;
     font-weight: 500;
     text-align: center;
     margin-top: -10px;
+    text-shadow: 0px 1px #2F6155;
 }
 
 #contact-credit {
     font-size: 12pt;
     font-weight: 300;
     text-align: right;
-    color: white;
+    color: #265A4B;
     padding-bottom: 10px;
     margin-top: 15px;
-    padding-left:0px;
-    padding-right:0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#contact-credit a{
+    color: #265A4B;
 }
 
 .contact-bkg {
-    background: rgb(253, 166, 158);
 
 }
 
@@ -294,9 +298,9 @@ section.col-xs-12 {
 }
 
 #note {
-    background: rgb(132, 220, 198);
+    background: rgb(241,153, 146);
     padding: 25px;
-    color: rgb(59, 100, 90);
+    color: rgb(152, 24, 0);
     text-align: justify;
     text-justify: inter-word;
     font-size: 13pt;
@@ -317,10 +321,10 @@ section.col-xs-12 {
 }
 
 #where{
-    background:rgb(132, 220, 198);
-    min-height:190px;
-    color: rgb(59, 100, 90);
-    padding:20px
+    background: rgb(79, 183, 153);
+    min-height: 190px;
+    color: rgb(38, 90, 75);
+    padding: 20px;
 }
 
 #map-container{
@@ -350,7 +354,7 @@ section.col-xs-12 {
     position: relative;
     padding-top: 20px;
     padding-bottom: 20px;
-    background: #f5f5f5;
+    background: rgb(230, 236, 232);
 }
 
 #sponsorship-text{
