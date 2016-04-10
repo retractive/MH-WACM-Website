@@ -78,6 +78,31 @@
         margin-top:0px;
     }
 
+    .cloud{
+        clear:left;
+    }
+
+    #sponsorship-logos{
+        position: relative;
+        height: auto;
+        width: 100%;
+        left: 50%;
+        margin-left: -25%;
+    }
+
+
+    #cloud-google{
+        margin-left:-40px;
+    }
+
+    #cloud-singlewire{
+        margin-left:30px;
+    }
+
+    #cloud-epic{
+        margin-left: -20px;
+    }
+
 }
 
 section#in-the-news.col-xs-12 {

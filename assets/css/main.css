@@ -354,7 +354,6 @@ section.col-xs-12 {
     position: relative;
     padding-top: 20px;
     padding-bottom: 20px;
-    background: rgb(230, 236, 232);
 }
 
 #sponsorship-text{
@@ -367,8 +366,61 @@ section.col-xs-12 {
 #sponsorship-logos{
     line-height: 1.5;
     letter-spacing: 50px;
+    float: left;
+    position: relative;
+    height: auto;
+    width: 495px;
+    left: 50%;
+    margin-left: -247.5px;
 }
 
 #sponsorship-logos img{
     padding:10px;
+}
+
+.cloud{
+    position:relative;
+    float:left;
+    padding:10px;
+
+}
+
+#cloud-google{
+    background: url('../img/sponsor/Google-cloud.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#cloud-singlewire{
+    background: url('../img/sponsor/singlewire-cloud.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    background-position-y: 0px;
+}
+
+#cloud-epic{
+    background: url('../img/sponsor/epic-cloud.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    clear:left;
+}
+
+#cloud-exis{
+    background: url('../img/sponsor/exis-cloud.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-right: 45px;
+    padding-left: 50px;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    background-position: center;
+}
+
+#cloud-microsoft{
+    background: url('../img/sponsor/microsoft-cloud.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 20px;
 }
