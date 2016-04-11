@@ -78,6 +78,12 @@
         margin-top:0px;
     }
 
+    #where-header{
+        width:164px;
+        left:50%;
+        margin-left:-82px;
+    }
+
     .cloud{
         clear:left;
     }

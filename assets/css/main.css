@@ -322,6 +322,16 @@ section.col-xs-12 {
     letter-spacing: 4px;
 }
 
+#where-header {
+    position: relative;
+    float: left;
+    color: white;
+    font-weight: 300;
+    font-size: 22pt;
+    line-height: 1;
+    letter-spacing: 4px;
+}
+
 #column-container {
     padding: 0px;
 }
