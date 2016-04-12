@@ -142,5 +142,16 @@ section#in-the-news.col-xs-12 {
     #sponsorship{
     }
 
+    #sponsorship-logos img{
+        padding:10px;
+        -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+        filter: grayscale(0%);
+    }
+
+    #sponsorship-logos img:hover {
+        -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+        filter: grayscale(0%);
+    }
+
 }
 
