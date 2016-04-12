@@ -392,6 +392,13 @@ section.col-xs-12 {
 
 #sponsorship-logos img{
     padding:10px;
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+}
+
+#sponsorship-logos img:hover {
+    -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+    filter: grayscale(0%);
 }
 
 .cloud{
