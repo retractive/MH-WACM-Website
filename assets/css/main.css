@@ -250,6 +250,16 @@ a.svg:after {
     background-position: 65% 50%;
 }
 
+#schedule, #devpost {
+  margin-top: 10px;
+  color: rgb(152, 24, 0);
+}
+
+#dev-and-schedule {
+  background-color: rgb(241,153, 146);
+  padding: 10px;
+}
+
 #contact-header {
     color: #FCFAE5;
     font-size: 18pt;
@@ -474,9 +484,3 @@ section.col-xs-12 {
     padding-top: 10px;
 
 }
-
-#schedule{
-
-
-}
-
